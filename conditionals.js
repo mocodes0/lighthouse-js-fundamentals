@@ -34,3 +34,14 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!")
+
+var isCitizen = true;
+var age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
+
